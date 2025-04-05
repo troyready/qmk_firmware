@@ -18,3 +18,10 @@
 
 /* Enable caps-lock LED */
 #define CAPS_LOCK_LED_INDEX 23
+
+// https://gist.github.com/fauxpark/010dcf5d6377c3a71ac98ce37414c6c4
+// 2024 Apple Magic Keyboard ID from https://discussions.apple.com/thread/255869613?sortBy=rank
+#undef VENDOR_ID
+#define VENDOR_ID 0x05AC
+#undef PRODUCT_ID
+#define PRODUCT_ID 0x0322
